@@ -1,8 +1,13 @@
+// roomRoutes.js
+
 const express = require('express');
-const { createRoom } = require('../controllers/roomController');
+const router = express.Router();
+const roomController = require('../controllers/roomController');
 
-const roomRouter = express.Router();
+// POST /rooms - Create a new room
+router.post('/', roomController.createRoom);
 
-roomRouter.post('/', createRoom);
+// GET /rooms - List all rooms
+router.get('/', roomController.listRooms);
 
-module.exports = roomRouter;
+module.exports = router;

@@ -1,12 +1,12 @@
+// room.js
+
 const mongoose = require('mongoose');
 
-// Define the schema
 const roomSchema = new mongoose.Schema({
-    name: String,
-    seats: Number,
-    amenities: [String],
-    price: Number
+    name: { type: String, required: true },
+    seats: { type: Number, required: true },
+    amenities: { type: [String], required: true },
+    price: { type: Number, required: true }
 });
 
-// Export the model
-module.exports = mongoose.model('Room', roomSchema, 'rooms');
+module.exports = mongoose.model('Room', roomSchema);
