@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "667d59500c6fb4590b1357c6"
+  },
+  "name": "B100",
+  "seats": 5,
+  "amenities": [
+    "Kitchen",
+    "AC",
+    "Heater"
+  ],
+  "price": 2500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d5c64142459336b0f3d2a"
+  },
+  "name": "B200",
+  "seats": 3,
+  "amenities": [
+    "WiFi",
+    "Coffe Maker",
+    "Kitchen",
+    "AC",
+    "Heater"
+  ],
+  "price": 3500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d63a1b2a3868756ef6726"
+  },
+  "name": "A101",
+  "seats": 1,
+  "amenities": [
+    "Kitchen",
+    "AC",
+    "Heater",
+    "Spa",
+    "WiFi",
+    "Coffe Maker",
+    "TV"
+  ],
+  "price": 7500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d693b5845c870a062a216"
+  },
+  "name": "A102",
+  "seats": 1,
+  "amenities": [
+    "Kitchen",
+    "AC",
+    "Heater",
+    "WiFi",
+    "TV"
+  ],
+  "price": 5500,
+  "__v": 0
+}]

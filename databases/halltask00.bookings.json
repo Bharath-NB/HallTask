@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "667d5f40a447cca01552180d"
+  },
+  "date": {
+    "$date": "2024-06-27T00:00:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2024-06-27T12:46:56.582Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d5fb4a447cca01552180f"
+  },
+  "date": {
+    "$date": "2024-06-24T00:00:00.000Z"
+  },
+  "status": "confirmed",
+  "createdAt": {
+    "$date": "2024-06-27T12:48:52.435Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d680462f337ad7d212f59"
+  },
+  "room_name": "A101",
+  "customer_name": "Bharath",
+  "date": {
+    "$date": "2024-06-20T00:00:00.000Z"
+  },
+  "start_time": 12,
+  "end_time": 11,
+  "booking_id": "363b15e5-5769-4aaa-9d1e-9ff9cda8c070",
+  "booking_status": "confirmed",
+  "booking_date": {
+    "$date": "2024-06-19T13:24:20.293Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d6a435845c870a062a219"
+  },
+  "room_name": "A102",
+  "customer_name": "Aarif",
+  "date": {
+    "$date": "2024-06-20T00:00:00.000Z"
+  },
+  "start_time": 12,
+  "end_time": 11,
+  "booking_id": "ca8ce5ef-ee30-4145-a25b-410da1833a7b",
+  "booking_status": "confirmed",
+  "booking_date": {
+    "$date": "2024-06-27T13:33:55.996Z"
+  },
+  "__v": 0
+}]
